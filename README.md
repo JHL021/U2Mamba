@@ -22,9 +22,9 @@ This project implements a hybrid architecture that synergizes the multi-scale fe
 The environment is optimized for **Python 3.10** and **CUDA 11.8+**.
 
 ```bash
-# Install core dependencies
+### Install core dependencies
 pip install torch torchvision torchmetrics numpy mamba-ssm
-
+```
 ---
 
 ## 📊 Dataset Preparation
