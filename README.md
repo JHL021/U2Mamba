@@ -29,12 +29,13 @@ pip install torch torchvision torchmetrics numpy mamba-ssm
 
 ## 📊 Dataset Preparation
 The pipeline is pre-configured for the DUTS dataset. Please organize your data as follows:
+```bash
 train_data/
 └── DUTS-TR/
     └── DUTS-TR/
         ├── im_aug/    # Training images (.jpg)
         └── gt_aug/    # Corresponding ground truth masks (.png)
-
+```
 ---
 
 ## 🏗️ Model Architecture
