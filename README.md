@@ -24,7 +24,9 @@ The environment is optimized for **Python 3.10** and **CUDA 11.8+**.
 ```bash
 # Install core dependencies
 pip install torch torchvision torchmetrics numpy mamba-ssm
+
 ---
+
 ## 📊 Dataset Preparation
 The pipeline is pre-configured for the DUTS dataset. Please organize your data as follows:
 train_data/
@@ -34,6 +36,7 @@ train_data/
         └── gt_aug/    # Corresponding ground truth masks (.png)
 
 ---
+
 ## 🏗️ Model Architecture
 The primary innovation is the MambaLayer integration, which processes spatial data as follows:
 1. Normalization: Applies LayerNorm for gradient stability.
@@ -42,6 +45,7 @@ The primary innovation is the MambaLayer integration, which processes spatial da
 
 
 ---
+
 ## 🚀 Training Instructions
 1. Clone the Repository
 git clone [https://github.com/your-username/u2net-mamba.git](https://github.com/your-username/u2net-mamba.git)
