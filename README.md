@@ -43,7 +43,7 @@ The primary innovation is the MambaLayer integration, which processes spatial da
 1. Normalization: Applies LayerNorm for gradient stability.
 2. Serialization: Flattens 2D feature maps $\in \mathbb{R}^{C \times H \times W}$ into 1D sequences.
 3. SSM Modeling: Learns global topological relationships via Mamba kernels.
-
+![Illustration of our model. The main architecture is a U-net-like encoder-decoder, where each stage consists of our newly proposed multiscale mamba UNet-block (MMUB). MMUB improves global context representations by learning deep multi-scale features.](pipeline.png)
 
 ---
 
