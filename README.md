@@ -75,3 +75,9 @@ Comparison of our method and SOTA methods on baseline datasets:
 | VST | 0.877 / 0.037 | 0.850 / 0.067 | 0.800 / 0.058 | 0.937 / 0.030 | 0.944 / 0.034 |
 | VST-S++ | 0.897 / 0.029 | 0.859 / 0.062 | 0.813 / 0.050 | 0.941 / 0.025 | 0.951 / 0.027 |
 | **U²Mamba (Ours)** | **0.904 / 0.024** | **0.856 / 0.068** | **0.816 / 0.052** | **0.933 / 0.025** | **0.929 / 0.024** |
+
+---
+
+## 📊 Experimental Results
+
+![Comparison of our method and SOTA methods](results.png)
