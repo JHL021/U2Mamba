@@ -45,6 +45,8 @@ The primary innovation is the MambaLayer integration, which processes spatial da
 3. SSM Modeling: Learns global topological relationships via Mamba kernels.
 ![Illustration of our model. The main architecture is a U-net-like encoder-decoder, where each stage consists of our newly proposed multiscale mamba UNet-block (MMUB). MMUB improves global context representations by learning deep multi-scale features.](pipeline.png)
 
+
+![Illustration of MMUB. ](U2MAMBA_MMUB.png)
 ---
 
 ## 🚀 Training Instructions
